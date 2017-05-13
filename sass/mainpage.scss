@@ -19,7 +19,7 @@ body {
   overflow-x: hidden;
 
   .preload {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 148vh;
     background-image: url(../images/svg/preload.svg);
