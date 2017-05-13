@@ -1,8 +1,18 @@
+:root {
+  font-size: 1.111111vw; }
+
+* {
+  box-sizing: border-box; }
+
 body {
-  background-image: url(../images/site-01.png);
-  background-size: cover; }
+  background-size: cover;
+  overflow-x: hidden; }
   body .preload {
-    animation-name: preload;
+    position: absolute;
+    width: 100vw;
+    height: 148vh;
+    background-image: url(../images/svg/preload.svg);
+    z-index: -100;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; }
@@ -13,5 +23,177 @@ body {
     opacity: 1; }
   100% {
     opacity: 0; } }
+  body .main {
+    width: 81.81818vw;
+    margin-left: 9.09091vw;
+    height: 100vh;
+    font-size: 0;
+    animation-name: view;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both; }
+@keyframes view {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+    body .main .logo {
+      width: 18.18182vw;
+      height: 28.09091vw;
+      background-color: white;
+      display: inline-block; }
+      body .main .logo img {
+        position: absolute;
+        height: 23.6vw;
+        margin: 1.4vw 0 0 1.4vw; }
+    body .main .layout {
+      width: 63.63636vw;
+      height: 28.09091vw;
+      background-color: black;
+      display: inline-flex;
+      justify-content: center;
+      box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.2); }
+      body .main .layout img {
+        position: absolute;
+        height: 28.1vw; }
+      body .main .layout .stain {
+        z-index: 1;
+        width: 35vw;
+        position: absolute;
+        margin-left: 27.8vw;
+        margin-top: -8vw; }
+    body .main .column1 {
+      width: 18.18182vw;
+      background-color: black;
+      height: 100vh;
+      display: inline-block;
+      box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.2); }
+      body .main .column1 ul {
+        position: absolute;
+        height: 29.3vw;
+        width: 100%; }
+        body .main .column1 ul li {
+          height: 11%;
+          width: 18.18182vw;
+          cursor: pointer; }
+          body .main .column1 ul li p {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding-left: 8%;
+            font-family: 'Pragmatica', sans-serif;
+            font-weight: bold;
+            font-size: 1rem;
+            color: white;
+            line-height: 1.125rem; }
+            body .main .column1 ul li p:hover {
+              color: black; }
+          body .main .column1 ul li:hover {
+            background-image: linear-gradient(to right, #c19f59, #bb9951, #ad8c3e, #b7984a, #d2b96b, #fded9f, #fff0a2, #fbe591, #f5d476, #d2af54, #b28e36); }
+    body .main .column2 {
+      width: 18.18182vw;
+      background-color: white;
+      height: 100vh;
+      display: inline-block;
+      z-index: -1; }
+      body .main .column2 div {
+        margin-left: 50%;
+        width: 50%;
+        height: 29.3vw;
+        background-image: linear-gradient(to bottom, #c19f59, #bb9951, #ad8c3e, #b7984a, #d2b96b, #fded9f, #fff0a2, #fbe591, #f5d476, #d2af54, #b28e36);
+        box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.2); }
+        body .main .column2 div ul {
+          position: absolute;
+          margin-top: 3.2vw;
+          height: 9.6vw;
+          width: 9.09091vw; }
+          body .main .column2 div ul li {
+            width: 100%;
+            height: 33%;
+            cursor: pointer; }
+            body .main .column2 div ul li:hover {
+              background-color: black; }
+            body .main .column2 div ul li p {
+              display: flex;
+              align-items: center;
+              width: 100%;
+              height: 100%;
+              padding-left: 8%;
+              font-family: 'Helvetica', sans-serif;
+              font-weight: regular;
+              font-size: 0.8125rem;
+              color: black;
+              line-height: 0.94rem; }
+              body .main .column2 div ul li p:hover {
+                color: white; }
+    body .main .column3 {
+      width: 27.27273vw;
+      background-color: white;
+      height: 100vh;
+      display: inline-block;
+      z-index: -1; }
+      body .main .column3 article {
+        position: absolute; }
+        body .main .column3 article h1, body .main .column3 article h2, body .main .column3 article p {
+          padding: 1.4vw 0 0 1.4vw; }
+        body .main .column3 article h1 {
+          font-family: 'Pragmatica', sans-serif;
+          font-weight: bold;
+          font-size: 3.75rem; }
+        body .main .column3 article h2 {
+          font-family: 'Helvetica', sans-serif;
+          font-weight: regular;
+          font-size: 1.25rem;
+          width: 23.95vw;
+          margin-top: 2.8vw; }
+        body .main .column3 article p {
+          font-family: 'Helvetica', sans-serif;
+          font-weight: regular;
+          font-size: 0.8125rem;
+          width: 23.95vw;
+          margin-top: 1.4vw; }
+        body .main .column3 article img {
+          width: 27.27273vw;
+          margin-top: -8.47vw; }
+    body .main .column4 {
+      position: absolute;
+      width: 18.18182vw;
+      background-color: black;
+      height: 100vh;
+      display: inline-block;
+      box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.2); }
+      body .main .column4 p {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 12.5vw;
+        padding-left: 8%;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: regular;
+        font-size: 0.8125rem;
+        color: white;
+        line-height: 0.94rem; }
+      body .main .column4 ul {
+        margin-top: 46px;
+        width: 100%;
+        height: 9.58vw; }
+        body .main .column4 ul li {
+          height: 3.19vw; }
+          body .main .column4 ul li a {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding-left: 8%;
+            font-family: 'Pragmatica', sans-serif;
+            font-weight: bold;
+            font-size: 1rem;
+            color: white;
+            line-height: 1.125rem;
+            text-decoration: none; }
+            body .main .column4 ul li a:hover {
+              padding-left: 9%; }
 
 /*# sourceMappingURL=mainpage.css.map */
