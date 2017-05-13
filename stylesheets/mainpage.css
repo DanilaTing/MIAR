@@ -1,0 +1,17 @@
+body {
+  background-image: url(../images/site-01.png);
+  background-size: cover; }
+  body .preload {
+    animation-name: preload;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; }
+@keyframes preload {
+  0% {
+    opacity: 0; }
+  99% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*# sourceMappingURL=mainpage.css.map */
