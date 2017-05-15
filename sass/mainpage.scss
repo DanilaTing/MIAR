@@ -24,6 +24,7 @@ body {
     height: 148vh;
     background-image: url(../images/svg/preload.svg);
     z-index: -100;
+    // margin-left: $columnwidth;
 
     // animation-name: preload;
     animation-duration: 2s;
@@ -31,9 +32,28 @@ body {
     animation-fill-mode: forwards;
 
     @keyframes preload {
-      0% {opacity: 0};
-      99% {opacity: 1};
-      100% {opacity: 0};
+      0% {margin-left: $columnwidth};
+      1% {margin-left: 0};
+      100% {margin-left: 0};
+    }
+
+    .white {
+      position: fixed;
+      background-color: white;
+      width: $columnwidth;
+      height: 100vh;
+
+      animation-name: preload2;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+
+      @keyframes preload2 {
+        0% {opacity: 1};
+        1% {opacity: 0};
+        99% {opacity: 0};
+        100% {opacity: 1};
+      }
     }
   }
 
