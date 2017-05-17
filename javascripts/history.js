@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 $(function() {
-=======
-$(function () {
->>>>>>> master
   $('.museumHistory').click(function () {
     $('.museumArchitectureArticle').addClass('hidden')
     $('.museumHistoryArticle').removeClass('hidden')
