@@ -57,9 +57,10 @@ body {
     opacity: 1; } }
     body .main .logo {
       width: 18.18182vw;
-      height: 28.09091vw;
+      height: 28.18182vw;
       background-color: white;
-      display: inline-block; }
+      display: inline-block;
+      font-size: 0; }
       body .main .logo img {
         position: absolute;
         height: 23.6vw;
@@ -138,11 +139,10 @@ body {
               width: 100%;
               height: 100%;
               padding-left: 8%;
-              font-family: 'Helvetica', sans-serif;
+              font-family: 'NewLetterGothicC', sans-serif;
               font-weight: regular;
-              font-size: 0.8125rem;
-              color: black;
-              line-height: 0.94rem; }
+              font-size: 1.0625rem;
+              color: black; }
               body .main .column2 div ul li p:hover {
                 color: white; }
     body .main .column3 {
@@ -151,6 +151,8 @@ body {
       height: 100vh;
       display: inline-block;
       z-index: -1; }
+      body .main .column3 .hidden {
+        display: none; }
       body .main .column3 article {
         position: absolute; }
         body .main .column3 article h1, body .main .column3 article h2, body .main .column3 article p {
@@ -158,22 +160,26 @@ body {
         body .main .column3 article h1 {
           font-family: 'Pragmatica', sans-serif;
           font-weight: bold;
-          font-size: 3.75rem; }
+          font-size: 3.75rem;
+          max-width: 95%; }
         body .main .column3 article h2 {
-          font-family: 'Helvetica', sans-serif;
+          font-family: 'NewLetterGothicC', sans-serif;
           font-weight: regular;
           font-size: 1.25rem;
           width: 23.95vw;
-          margin-top: 2.8vw; }
+          margin-top: 1.875rem;
+          padding-top: 0; }
         body .main .column3 article p {
-          font-family: 'Helvetica', sans-serif;
+          font-family: 'NewLetterGothicC', sans-serif;
           font-weight: regular;
           font-size: 0.8125rem;
           width: 23.95vw;
-          margin-top: 1.4vw; }
+          margin-top: 1.25rem;
+          padding-top: 0; }
         body .main .column3 article img {
           width: 27.27273vw;
-          margin-top: -8.47vw; }
+          margin-top: 1.25rem;
+          margin-left: -18.18182vw; }
     body .main .column4 {
       position: absolute;
       width: 18.18182vw;
@@ -188,17 +194,19 @@ body {
         width: 100%;
         height: 12.5vw;
         padding-left: 8%;
-        font-family: 'Helvetica', sans-serif;
+        margin-top: 1.5rem;
+        font-family: 'NewLetterGothicC', sans-serif;
         font-weight: regular;
-        font-size: 0.8125rem;
-        color: white;
-        line-height: 0.94rem; }
+        font-size: 1.25rem;
+        color: white; }
       body .main .column4 ul {
         margin-top: 46px;
         width: 100%;
         height: 9.58vw; }
         body .main .column4 ul li {
           height: 3.19vw; }
+          body .main .column4 ul li:hover {
+            background-color: white; }
           body .main .column4 ul li a {
             display: flex;
             align-items: center;
@@ -212,6 +220,6 @@ body {
             line-height: 1.125rem;
             text-decoration: none; }
             body .main .column4 ul li a:hover {
-              padding-left: 9%; }
+              color: black; }
 
 /*# sourceMappingURL=mainpage.css.map */
