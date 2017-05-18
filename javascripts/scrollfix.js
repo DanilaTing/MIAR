@@ -16,7 +16,7 @@ $(function () {
       // $('#fixme').css({"position":"fixed","top":"0", "z-index":"1"});
       // $('#fixme2').css({"position":"fixed","top":"0", "margin-left":"262px", "z-index":"0"});
       // $('#fixme3').css({"position":"fixed","margin-top":-height-3, "margin-left":"0"});
-      $('.column3').css({"margin-left":"524px", "z-index":"3", "height":doc - height});
+      $('.column3').css({"margin-left":"36.38vw", "z-index":"3", "height":doc - height});
     } else {
       $('#fixme').removeClass('fixed')
       $('#fixme2').removeClass('fixed')
