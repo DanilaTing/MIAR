@@ -159,6 +159,12 @@ body {
       }
     }
 
+    .column1.fixed {
+      position: fixed;
+      left: 0;
+      margin-left: $columnwidth;
+    }
+
     .column2 {
       width: $column1;
       background-color: white;
@@ -210,6 +216,13 @@ body {
           }
         }
       }
+    }
+
+    .column2.fixed {
+      position: fixed;
+      left: 0;
+      margin-left: $columnwidth*3;
+      z-index: 0;
     }
 
     .column3 {
@@ -354,6 +367,13 @@ body {
           }
         }
       }
+    }
+    .column4.fixed {
+      position: fixed;
+      left: 0;
+      margin-left: $columnwidth*8;
+      z-index: 1;
+      margin-top: -407px;
     }
   }
 }
