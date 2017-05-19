@@ -73,9 +73,15 @@ body {
       display: inline-flex;
       justify-content: center;
       box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.2); }
-      body .main .layout img {
-        position: absolute;
-        height: 28.1vw; }
+      body .main .layout div {
+        width: 100%;
+        height: 100%; }
+        body .main .layout div img {
+          position: absolute;
+          height: 28.1vw;
+          display: none; }
+        body .main .layout div img.visible {
+          display: block; }
       body .main .layout .stain {
         z-index: 1;
         width: 35vw;
