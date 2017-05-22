@@ -13,16 +13,16 @@ body {
     height: 148vh;
     background-image: url(../images/svg/preload.svg);
     z-index: -100;
+    animation-name: preload;
     animation-duration: 2s;
+    animation-delay: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; }
 @keyframes preload {
   0% {
-    margin-left: 9.09091vw; }
-  1% {
-    margin-left: 0; }
+    opacity: 1; }
   100% {
-    margin-left: 0; } }
+    opacity: 0; } }
     body .preload .white {
       position: fixed;
       background-color: white;
@@ -58,7 +58,7 @@ body {
     opacity: 1; } }
     body .main .logo {
       width: 18.18182vw;
-      height: 28.18182vw;
+      height: 28vw;
       background-color: white;
       display: inline-block;
       font-size: 0; }
@@ -73,6 +73,14 @@ body {
       display: inline-flex;
       justify-content: center;
       box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.2); }
+      body .main .layout figure {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 100; }
+        body .main .layout figure #Layer_2 {
+          width: 100%;
+          height: 100%; }
       body .main .layout .gallery {
         width: 100%;
         height: 100%; }
@@ -100,10 +108,10 @@ body {
             background-color: rgba(0, 0, 0, 0.8);
             cursor: pointer; }
           body .main .layout .buttons div div {
-            width: 50px;
-            height: 50px;
-            border-left: 5px solid white;
-            border-top: 5px solid white;
+            width: 20px;
+            height: 20px;
+            border-left: 3px solid white;
+            border-top: 3px solid white;
             background-color: transparent; }
             body .main .layout .buttons div div:hover {
               background-color: transparent; }
@@ -137,6 +145,7 @@ body {
             width: 100%;
             height: 100%;
             padding-left: 8%;
+            padding-top: 0.34vw;
             font-family: 'Pragmatica', sans-serif;
             font-weight: bold;
             font-size: 1rem;
@@ -152,7 +161,6 @@ body {
       margin-left: 9.09091vw; }
     body .main .column2 {
       width: 18.18182vw;
-      background-color: white;
       height: 100vh;
       display: inline-block;
       z-index: -1; }
@@ -179,6 +187,7 @@ body {
               width: 100%;
               height: 100%;
               padding-left: 8%;
+              padding-top: 0.34vw;
               font-family: 'NewLetterGothicC', sans-serif;
               font-weight: regular;
               font-size: 1.0625rem;
@@ -192,7 +201,6 @@ body {
       z-index: 0; }
     body .main .column3 {
       width: 27.27273vw;
-      background-color: white;
       height: 100vh;
       display: inline-block;
       z-index: -1; }
@@ -210,15 +218,16 @@ body {
         body .main .column3 article h2 {
           font-family: 'NewLetterGothicC', sans-serif;
           font-weight: regular;
-          font-size: 1rem;
+          font-size: 1.1rem;
+          line-height: 1.2rem;
           width: 23.95vw;
           margin-top: 1.875rem;
           padding-top: 0; }
         body .main .column3 article p {
           font-family: 'NewLetterGothicC', sans-serif;
           font-weight: 800;
-          font-size: 0.8rem;
-          line-height: 1rem;
+          font-size: .9rem;
+          line-height: 1.1rem;
           width: 23.95vw;
           margin-top: .5rem;
           padding-top: 0; }
