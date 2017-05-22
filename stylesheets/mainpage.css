@@ -139,7 +139,7 @@ body {
           height: 11%;
           width: 18.18182vw;
           cursor: pointer; }
-          body .main .column1 ul li p {
+          body .main .column1 ul li a {
             display: flex;
             align-items: center;
             width: 100%;
@@ -150,8 +150,9 @@ body {
             font-weight: bold;
             font-size: 1rem;
             color: white;
-            line-height: 1.125rem; }
-            body .main .column1 ul li p:hover {
+            line-height: 1.125rem;
+            text-decoration: none; }
+            body .main .column1 ul li a:hover {
               color: black; }
           body .main .column1 ul li:hover {
             background-image: linear-gradient(to right, #c19f59, #bb9951, #ad8c3e, #b7984a, #d2b96b, #fded9f, #fff0a2, #fbe591, #f5d476, #d2af54, #b28e36); }

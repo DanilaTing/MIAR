@@ -200,7 +200,7 @@ body {
           width: $columnwidth*2;
           cursor: pointer;
 
-          p {
+          a {
             display: flex;
             align-items: center;
             width: 100%;
@@ -213,6 +213,7 @@ body {
             font-size: 1rem;
             color: white;
             line-height: 1.125rem;
+            text-decoration: none;
 
             &:hover { color: black; }
           }
