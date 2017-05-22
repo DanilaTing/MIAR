@@ -1,0 +1,47 @@
+:root {
+  font-size: 1.111111vw; }
+
+body {
+  height: 57.43vw;
+  overflow: hidden; }
+  body .main {
+    animation: none;
+    height: 100%;
+    overflow: hidden; }
+    body .main .column3contacts {
+      width: 45.45455vw;
+      height: 421px;
+      display: inline-block;
+      vertical-align: top; }
+      body .main .column3contacts div {
+        z-index: 1;
+        margin-left: 9.09091vw;
+        margin-top: 4.54545vw;
+        height: 100px;
+        width: 27.27273vw;
+        height: 100%;
+        position: absolute; }
+        body .main .column3contacts div h1, body .main .column3contacts div h2, body .main .column3contacts div p, body .main .column3contacts div a {
+          padding-left: 1.4vw; }
+        body .main .column3contacts div h1 {
+          font-family: 'Pragmatica', sans-serif;
+          font-weight: bold;
+          font-size: 3.75rem;
+          max-width: 95%; }
+        body .main .column3contacts div h2 {
+          font-family: 'NewLetterGothicC', sans-serif;
+          font-weight: regular;
+          font-size: 1.1rem;
+          line-height: 1.2rem;
+          margin-top: 1.875rem; }
+        body .main .column3contacts div a {
+          font-family: 'NewLetterGothicC', sans-serif;
+          font-weight: regular;
+          font-size: 1.1rem;
+          line-height: 1.2rem;
+          margin-top: 1.95rem;
+          color: black; }
+    body .main .column4 {
+      height: 100vw; }
+
+/*# sourceMappingURL=contacts.css.map */

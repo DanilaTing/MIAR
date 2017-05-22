@@ -1,0 +1,65 @@
+$columnwidth: 9.09090910vw;
+
+:root {
+  font-size: 1.111111vw;
+}
+
+body {
+  height: 57.43vw;
+  overflow: hidden;
+
+  .main {
+    animation: none;
+    height: 100%;
+    overflow: hidden;
+
+    .column3contacts {
+      width: $columnwidth*5;
+      height: 421px;
+      display: inline-block;
+      vertical-align: top;
+
+      div {
+        z-index: 1;
+        margin-left: $columnwidth;
+        margin-top: $columnwidth/2;
+        height: 100px;
+        width: $columnwidth*3;
+        height: 100%;
+        position: absolute;
+
+        h1, h2, p, a{
+          padding-left: 1.4vw;
+        }
+
+        h1 {
+          font-family: 'Pragmatica', sans-serif;
+          font-weight: bold;
+          font-size: 3.75rem;
+          max-width: 95%;
+        }
+
+        h2 {
+          font-family: 'NewLetterGothicC', sans-serif;
+          font-weight: regular;
+          font-size: 1.1rem;
+          line-height: 1.2rem;
+          margin-top: (3.75rem)/2;
+        }
+
+        a {
+          font-family: 'NewLetterGothicC', sans-serif;
+          font-weight: regular;
+          font-size: 1.1rem;
+          line-height: 1.2rem;
+          margin-top: (3.9rem)/2;
+          color: black;
+        }
+      }
+    }
+
+    .column4 {
+      height: 100vw;
+    }
+  }
+}
