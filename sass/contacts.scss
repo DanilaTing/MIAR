@@ -6,12 +6,10 @@ $columnwidth: 9.09090910vw;
 
 body {
   height: 57.43vw;
-  overflow: hidden;
 
   .main {
     animation: none;
     height: 100%;
-    overflow: hidden;
 
     .column3contacts {
       width: $columnwidth*5;
@@ -25,7 +23,7 @@ body {
         margin-top: $columnwidth/2;
         height: 100px;
         width: $columnwidth*3;
-        height: 100%;
+        height: 10vh;
         position: absolute;
 
         h1, h2, p, a{
@@ -59,7 +57,7 @@ body {
     }
 
     .column4 {
-      height: 100vw;
+      height: 100vh;
     }
   }
 }

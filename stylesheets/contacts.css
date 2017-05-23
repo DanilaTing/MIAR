@@ -2,12 +2,10 @@
   font-size: 1.111111vw; }
 
 body {
-  height: 57.43vw;
-  overflow: hidden; }
+  height: 57.43vw; }
   body .main {
     animation: none;
-    height: 100%;
-    overflow: hidden; }
+    height: 100%; }
     body .main .column3contacts {
       width: 45.45455vw;
       height: 421px;
@@ -19,7 +17,7 @@ body {
         margin-top: 4.54545vw;
         height: 100px;
         width: 27.27273vw;
-        height: 100%;
+        height: 10vh;
         position: absolute; }
         body .main .column3contacts div h1, body .main .column3contacts div h2, body .main .column3contacts div p, body .main .column3contacts div a {
           padding-left: 1.4vw; }
@@ -42,6 +40,6 @@ body {
           margin-top: 1.95rem;
           color: black; }
     body .main .column4 {
-      height: 100vw; }
+      height: 100vh; }
 
 /*# sourceMappingURL=contacts.css.map */
