@@ -19,14 +19,13 @@ body {
   overflow-x: hidden;
 
   .preload {
+    display: none;
     position: fixed;
     width: 100vw;
     height: 148vh;
     background-image: url(../images/svg/preload.svg);
     z-index: -100;
-    // margin-left: $columnwidth;
 
-    animation-name: preload;
     animation-duration: 2s;
     animation-delay: 1s;
     animation-iteration-count: 1;
@@ -35,26 +34,6 @@ body {
     @keyframes preload {
       0% {opacity: 1};
       100% {opacity: 0};
-    }
-
-    .white {
-      position: fixed;
-      background-color: white;
-      width: $columnwidth;
-      height: 100vh;
-
-      animation-name: preload2;
-      animation-delay: 1.5s;
-      animation-duration: .2s;
-      animation-iteration-count: 1;
-      animation-fill-mode: both;
-
-      @keyframes preload2 {
-        0% {opacity: 0};
-        1% {opacity: 0};
-        99% {opacity: 0};
-        100% {opacity: 1};
-      }
     }
   }
 
@@ -69,7 +48,7 @@ body {
     height: 100vh;
     font-size: 0;
 
-    animation-name: view;
+    // animation-name: view;
     animation-duration: .6s;
     animation-delay: 1.5s;
     animation-fill-mode: both;
@@ -437,7 +416,7 @@ body {
       .socials {
         width: 100%;
         height: 3.47vw;
-        margin-top: 24.3vw;
+        margin-top: 24.8vw;
 
         div {
           display: inline-flex;
