@@ -120,7 +120,7 @@ body {
             body .main .layout .buttons div div.right {
               transform: rotate(135deg); }
       body .main .layout .stain {
-        z-index: 1;
+        z-index: 3;
         width: 35vw;
         position: absolute;
         margin-left: 27.8vw;
@@ -199,7 +199,7 @@ body {
       position: fixed;
       left: 0;
       margin-left: 27.27273vw;
-      z-index: 0; }
+      z-index: 1; }
     body .main .column3 {
       width: 27.27273vw;
       height: 100vh;
@@ -232,10 +232,33 @@ body {
           width: 23.95vw;
           margin-top: .5rem;
           padding-top: 0; }
-        body .main .column3 article img {
+        body .main .column3 article img:first-of-type {
           width: 27.27273vw;
           margin-top: 1.25rem;
           margin-left: -18.18182vw; }
+        body .main .column3 article img:nth-of-type(2) {
+          width: 18.18182vw;
+          position: absolute;
+          margin-top: 20vw;
+          margin-left: -27.27273vw; }
+        body .main .column3 article a {
+          font-family: 'Pragmatica', sans-serif;
+          font-weight: bold;
+          color: black;
+          text-decoration: none;
+          font-size: 1.25rem;
+          position: absolute;
+          margin-top: 30vw; }
+          body .main .column3 article a:hover {
+            text-decoration: underline; }
+          body .main .column3 article a:nth-of-type(2) {
+            margin-top: 55vw; }
+        body .main .column3 article img:nth-of-type(3) {
+          width: 18.18182vw;
+          position: absolute;
+          margin-top: 51vw;
+          margin-left: -27.27273vw;
+          padding-bottom: 5vw; }
     body .main .column4 {
       position: absolute;
       width: 18.18182vw;
