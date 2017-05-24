@@ -1,6 +1,15 @@
 :root {
   font-size: 1.111111vw; }
 
+@font-face {
+  font-family: Pragmatica;
+  src: url(PragmaticaBold.ttf); }
+@font-face {
+  font-family: NewLetterGothic;
+  src: url(NewLetterGothicC.otf); }
+@font-face {
+  font-family: fontawesome;
+  src: url(fontawesome-webfont.woff); }
 /* $columnwidth: 130.909091px;*/
 * {
   box-sizing: border-box; }
@@ -242,6 +251,9 @@ body {
               font-weight: regular;
               font-size: 1.0625rem;
               color: black; }
+              @media screen and (min-width: 480px) {
+                body .main .column2 div ul li p p {
+                  font-size: .8rem; } }
               body .main .column2 div ul li p:hover {
                 color: white; }
     body .main .column2.fixed {
