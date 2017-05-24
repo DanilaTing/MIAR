@@ -3,18 +3,18 @@
 }
 
 @font-face {
-    font-family: Pragmatica;
-    src: url(PragmaticaBold.ttf);
+    font-family: 'Pragmatica';
+    src: url(../fonts/PragmaticaBold.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: NewLetterGothic;
-    src: url(NewLetterGothicC.otf);
+    font-family: 'NewLetterGothicC';
+    src: url(../fonts/NewLetterGothicC.otf) format("opentype");
 }
 
 @font-face {
-    font-family: fontawesome;
-    src: url(fontawesome-webfont.woff);
+    font-family: 'FontAwesome';
+    src: url(../fonts/fontawesome-webfont.woff) format("woff");
 }
 
 
