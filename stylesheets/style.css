@@ -1,4 +1,7 @@
 @import "reset.css";
 
+@import "../fonts/Pragmatica Bold.ttf";
+@import "../fonts/NewLetterGothicC.otf";
 @import "font-awesome.css";
+
 @import "mainpage.css";
