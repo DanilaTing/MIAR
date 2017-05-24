@@ -17,6 +17,15 @@
     <!-- <script type="text/javascript" src="javascripts/stain.js"></script> -->
   </head>
   <body>
+    <script type="text/javascript">
+      $(window).load(function() {
+        if (readCookie('referer') == null){
+          $(".preload").css({"display":"block", "animation-name":"preload"});
+        $(".main").css({"animation-name":"view"});
+        }
+        createCookie('referer',1,0);
+      });
+    </script>
     <section class="preload">
     </section>
 
@@ -27,7 +36,8 @@
       </div>
 
       <div id="layout" class="layout">
-        <img class="stain" src="images/svg/stain.svg" alt="">
+        <!-- <img class="stain" src="images/svg/stain.svg" alt=""> -->
+        <!-- <img class="stain" src="images/mygif.gif" alt=""> -->
         <!-- <figure>
           <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 798.66 653.81">
             <defs>

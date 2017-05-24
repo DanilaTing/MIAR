@@ -1,0 +1,38 @@
+:root {
+  font-size: 1.111111vw;
+}
+
+$columnwidth: 9.09090910vw;
+
+$small: 0.8125rem;
+$medium: 1.25rem;
+$large: 3.75rem;
+
+body {
+  .main {
+    .column3contacts {
+      div {
+        margin-top: 6vw;
+        h1 {
+          font-size: $medium;
+          line-height: 1.4rem;
+          &:first-of-type {
+            font-size: 3rem;
+          }
+          &:not(:first-of-type) {
+            margin-top: 1.39vw;
+          }
+        }
+
+        p {
+          &:not(:last-of-type) {
+            margin-top: 2.8vw;
+          }
+          font-family: 'NewLetterGothicC', sans-serif;
+          font-size: 1rem;
+          margin-top: 0.7vw;
+        }
+      }
+    }
+  }
+}

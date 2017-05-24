@@ -1,0 +1,20 @@
+:root {
+  font-size: 1.111111vw; }
+
+body .main .column3contacts div {
+  margin-top: 6vw; }
+  body .main .column3contacts div h1 {
+    font-size: 1.25rem;
+    line-height: 1.4rem; }
+    body .main .column3contacts div h1:first-of-type {
+      font-size: 3rem; }
+    body .main .column3contacts div h1:not(:first-of-type) {
+      margin-top: 1.39vw; }
+  body .main .column3contacts div p {
+    font-family: 'NewLetterGothicC', sans-serif;
+    font-size: 1rem;
+    margin-top: 0.7vw; }
+    body .main .column3contacts div p:not(:last-of-type) {
+      margin-top: 2.8vw; }
+
+/*# sourceMappingURL=attend.css.map */
