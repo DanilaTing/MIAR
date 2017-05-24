@@ -251,9 +251,6 @@ body {
               font-weight: regular;
               font-size: 1.0625rem;
               color: black; }
-              @media screen and (min-width: 480px) {
-                body .main .column2 div ul li p p {
-                  font-size: .8rem; } }
               body .main .column2 div ul li p:hover {
                 color: white; }
     body .main .column2.fixed {
@@ -427,5 +424,9 @@ body {
       margin-left: 72.72727vw;
       z-index: 1;
       margin-top: -28.263vw; }
+
+@media screen and (min-width: 1441px) {
+  body .main .column2 div ul li p {
+    font-size: .8rem; } }
 
 /*# sourceMappingURL=mainpage.css.map */
