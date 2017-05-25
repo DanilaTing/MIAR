@@ -3,18 +3,18 @@
 }
 
 @font-face {
-    font-family: 'Pragmatica';
-    src: url(../fonts/PragmaticaBold.ttf) format("truetype");
+  font-family: 'Pragmatica';
+  src: url(../fonts/PragmaticaBold.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'NewLetterGothicC';
-    src: url(../fonts/NewLetterGothicC.otf) format("opentype");
+  font-family: 'NewLetterGothicC';
+  src: url(../fonts/NewLetterGothicC.otf) format("opentype");
 }
 
 @font-face {
-    font-family: 'FontAwesome';
-    src: url(../fonts/fontawesome-webfont.woff) format("woff");
+  font-family: 'FontAwesome';
+  src: url(../fonts/fontawesome-webfont.woff) format("woff");
 }
 
 
@@ -119,6 +119,24 @@ body {
       -ms-flex-pack: center;
       justify-content: center;
       box-shadow: 6px 2px 4px 0px rgba(0,0,0,0.2);
+
+      svg {
+        width: 400px;
+        position: absolute;
+        z-index: 100;
+        overflow: visible;
+        top: 0;
+        left: 0;
+
+        animation-name: rand;
+        animation-duration: 80s;
+
+        @keyframes rand {
+          0%{top: 0; left: 0};
+          50%{top: 10vw; left: 50vw};
+          0%{top: 0; left: 0};
+        }
+      }
 
       figure {
         width: 100%;
