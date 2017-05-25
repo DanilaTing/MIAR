@@ -91,24 +91,28 @@ body {
       justify-content: center;
       box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.2); }
       body .main .layout svg {
-        width: 400px;
+        width: 27.7vw;
         position: absolute;
         z-index: 100;
         overflow: visible;
         top: 0;
         left: 0;
         animation-name: rand;
-        animation-duration: 80s; }
+        animation-duration: 80s;
+        animation-iteration-count: infinite; }
 @keyframes rand {
   0% {
     top: 0;
-    left: 0; }
+    left: 0;
+    width: 27.7vw; }
   50% {
     top: 10vw;
-    left: 50vw; }
+    left: 50vw;
+    width: 29vw; }
   0% {
     top: 0;
-    left: 0; } }
+    left: 0;
+    width: 27.7vw; } }
       body .main .layout figure {
         width: 100%;
         height: 100%;

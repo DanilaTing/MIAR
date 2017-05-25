@@ -121,7 +121,7 @@ body {
       box-shadow: 6px 2px 4px 0px rgba(0,0,0,0.2);
 
       svg {
-        width: 400px;
+        width: 27.7vw;
         position: absolute;
         z-index: 100;
         overflow: visible;
@@ -130,11 +130,12 @@ body {
 
         animation-name: rand;
         animation-duration: 80s;
+        animation-iteration-count: infinite;
 
         @keyframes rand {
-          0%{top: 0; left: 0};
-          50%{top: 10vw; left: 50vw};
-          0%{top: 0; left: 0};
+          0%{top: 0; left: 0; width: 27.7vw; };
+          50%{top: 10vw; left: 50vw; width: 29vw};
+          0%{top: 0; left: 0; width: 27.7vw;};
         }
       }
 
