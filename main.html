@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>МУЗЕЙ ИМ. АНДРЕЯ РУБЛЕВА</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <!-- <script type="text/javascript" src="javascripts/js.cookie.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <script type="text/javascript" src="javascripts/history.js"></script>
+    <script type="text/javascript" src="javascripts/scrollfix.js"></script>
+    <script type="text/javascript" src="javascripts/gallery.js"></script>
+    <script type="text/javascript" src="javascripts/preload.js"></script>
+    <script type="text/javascript" src="javascripts/stain.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      $(window).load(function() {
+        if (readCookie('referer') == null){
+          $(".preload").css({"display":"block", "animation-name":"preload"});
+        $(".main").css({"animation-name":"view"});
+        }
+        createCookie('referer',1,0);
+      });
+    </script>
+    <section class="preload">
+    </section>
+
+    <section class="main">
+
+      <div class="logo">
+        <img src="images/svg/logo.svg" alt="">
+      </div>
+
+      <div id="layout" class="layout">
+        <svg id="stain1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 299.69 220.4">
+          <defs>
+            <style>
+              .stain1 {
+                fill: url(#New_Gradient_Swatch);
+              }
+              .stain2 {
+                visibility: hidden;
+                fill: url(#New_Gradient_Swatch);
+              }
+            </style>
+            <linearGradient id="New_Gradient_Swatch" data-name="New Gradient Swatch" x1="0.31" y1="110.2" x2="300" y2="110.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#c19f59"/>
+              <stop offset="0.06" stop-color="#bb9951"/>
+              <stop offset="0.15" stop-color="#ad8c3e"/>
+              <stop offset="0.17" stop-color="#b7984a"/>
+              <stop offset="0.22" stop-color="#d2b96b"/>
+              <stop offset="0.28" stop-color="#fded9f"/>
+              <stop offset="0.29" stop-color="#fff0a2"/>
+              <stop offset="0.42" stop-color="#fbe591"/>
+              <stop offset="0.59" stop-color="#f5d476"/>
+              <stop offset="0.72" stop-color="#d2af54"/>
+              <stop offset="0.83" stop-color="#b28e36"/>
+              <stop offset="1" stop-color="#e9c870"/>
+            </linearGradient>
+          </defs>
+          <title>stain4</title>
+
+          <path class="stain1" d="M131.71,217.76c10.64,5,24.64,1.66,35.09.34,8.53-1.07,22.55-1.2,28.63-6.88,4.22-3.95.41-13,.26-18.57s26.62-5.77,31.28-9.71c1.4-1.18,1.51-3.12,2.79-4.51a28.63,28.63,0,0,1,3.63-3.06c8.28-6.62,11.56-7.69,12.83-8.68,2.07-1.61,4.18-1.7,6-3.47,2.15-2.08,2.11-5.35,3-8.11,3.69-12,9-11.46,14.61-17,17.07-6.54,19.59-8.79,23.52-14.24,1.21-1.68,6.27-6.15,6.3-8.17,0.22-16.27,1.3-36.88-1.68-52.91-1.38-7.42-8.19-17.61-12.31-24.09-5.89-9.26-22.71-9.93-33.57-13.59s-22.45-5-33.92-6.24L56,0.88C49,0.1,41.83-.66,35,0.94,30.65,37.17-5.64,74,1.15,109.88c0.76,4,1.66,8.17,4.37,11.36,4,4.74,9.57,8.27,14.82,11.52,9.44,5.85,18.59,10.34,21.14,17.62,2.74,7.81,17.35,30.79,25.48,34.19A68.28,68.28,0,0,1,81.44,193c7.66,6.11,19,5.49,26.88,10.9C123.77,214.53,123.18,213.78,131.71,217.76Z" transform="translate(-0.31)"/>
+          <path class="stain2" d="M437.31,60.19c-1.23,20.76,4.37,41.42,12.5,60.57a233.32,233.32,0,0,0,20,37.23c6.26,9.5,13.28,18.6,21.83,26.11,16.07,14.11,36.73,21.89,57.46,27.14a299.61,299.61,0,0,0,105.67,7.42c14.42-1.56,30.58-5.42,37.74-18,4.28-7.54,4.33-16.65,5.1-25.29s2.81-18,9.59-23.4c7.84-6.25,20.52-6,25.8-14.49,3.48-5.62,2.19-12.84.79-19.3L718.64,48.73c-1.93-8.86-4-17.94-8.87-25.57-9.38-14.55-27.68-21-45-21.61s-34.33,3.71-51.49,6c-33.35,4.36-67,1-100.26-2.88-12.86-1.5-27.55-5.41-40.5-3.42-9,1.38-14.32,7.43-19.3,14.54A86.93,86.93,0,0,0,437.31,60.19Z" transform="translate(-40.14 -0.65)"/>
+        </svg>
+        <div class="gallery">
+          <img src="images/first.jpg" alt="">
+          <img src="images/second.jpg" alt="">
+          <img src="images/third.jpg" alt="">
+          <img src="images/forth.jpg" alt="">
+        </div>
+        <div class="buttons">
+          <div><div class="left"></div></div>
+          <div><div class="right"></div></div>
+        </div>
+      </div>
+
+      <section id="fixme" class="column1">
+        <section class="sticky">
+          <ul>
+            <li><a>О МУЗЕЕ</a></li>
+            <li><a>НОВОСТИ</a></li>
+            <li><a>КАЛЕНДАРЬ <br>ВЫСТАВОК</a></li>
+            <li><a href="attenders.html">ПОСЕТИТЕЛЯМ</a></li>
+            <li><a>КОЛЛЕКЦИЯ</a></li>
+            <li><a>ОБРАЗОВАТЕЛЬНАЯ <br>ДЕЯТЕЛЬНОСТЬ</a></li>
+            <li><a>СТРУКТУРА МУЗЕЯ</a></li>
+            <li><a>СМИ О МУЗЕЕ</a></li>
+            <li><a href="contacts.html">КОНТАКТЫ</a></li>
+          </ul>
+        </section>
+      </section>
+
+      <section id="fixme2" class="column2">
+        <section class="sticky2">
+          <div>
+            <ul>
+              <li><p class="museumHistory">ИСТОРИЯ <br>МУЗЕЯ</p></li>
+              <li><p class="museumArchitecture">АРХИТЕКТУРНЫЙ <br>КОМПЛЕКС</p></li>
+              <li><p>СМИ О МУЗЕЕ</p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <section class="column3">
+        <article class="museumArchitectureArticle">
+          <h1>О МУЗЕЕ</h1>
+          <h2>СПАСО-АНДРОНИКОВ МОНАСТЫРЬ / АРХИТЕКТУРНЫЙ КОМПЛЕКС</h2>
+          <p>На&nbsp;протяжении XVI и&nbsp;особенно XVII-XVIII веках в&nbsp;монастыре ведется каменное строительство, возводятся стены и&nbsp;башни, надвратная Рождественская церковь, несколько корпусов.</p>
+          <p>Позднее монастырь был связан с&nbsp;родом Лопухиных. По&nbsp;инициативе супруги Петра I&nbsp;царицы Евдокии Федоровны в&nbsp;90-е годы XVII века к трапезной палате пристраивается многоярусный храм Архангела Михаила.</p>
+          <p>Древний монастырский Спасский храм с&nbsp;многоярусным завершением относится к&nbsp;выдающимся образцам раннемосковского белокаменного зодчества наряду с&nbsp;Успенским собором в&nbsp;Звенигороде и&nbsp;Троицким собором Троице Сергиевой лавры. По&nbsp;всей вероятности, он&nbsp;сооружен во&nbsp;втором-третьем десятилетиях XV&nbsp;века. Позднее храм был разорен, но&nbsp;архитектура его интерьера до&nbsp;сих пор завораживает тонкостью пропорций и&nbsp;устремленностью в&nbsp;высь. Не&nbsp;исключено, что внутри собор имел резные детали, а&nbsp;его пол был декорирован узорными керамическими плитками.</p>
+          <p>Одностолпная Трапезная палата с&nbsp;мощными сводами на&nbsp;втором этаже имела высокий подклет (первый этаж) с&nbsp;хозяйственными помещениями, прежде всего кухней. По&nbsp;архитектуре здание сходно Грановитой палатой Московского Кремля конца XV&nbsp;столетия. Пристроенный к&nbsp;ней трехэтажный храм Архангела Михаила существенно обогатил облик монастыря. Кроме основного престола здесь находились храмы Апостолов Петра и&nbsp;Павла, Митрополита Алексия и&nbsp;Знаменская церковь с&nbsp;усыпальницей Лопухиных. Сложная судьба породнившегося с&nbsp;царской семьей боярского рода обусловила длительность строительства комплекса. Завершенный в&nbsp;1739&nbsp;году, он&nbsp;получил черты стиля московского (или нарышкинского) барокко.</p>
+          <p>Лишенный надвратной церкви, колокольни и&nbsp;других построек в&nbsp;своем настоящем виде ансамбль Спасо-Андроникова монастыря все&nbsp;же позволяет оценить его главные памятники и&nbsp;прежде всего Спасский собор.</p>
+          <p>В&nbsp;1918 году Спасо-Андроников монастырь был упразднен.</p>
+          <img src="images/image1.png" alt="">
+          <img src="images/sobor.jpg" alt="">
+          <a href="">СПАССКИЙ СОБОР (XV В.)</a>
+          <img src="images/palata.jpeg" alt="">
+          <a href="">ТРАПЕЗНАЯ ПАЛАТА (1504-1506)</a>
+        </article>
+
+        <article class="museumHistoryArticle hidden">
+          <h1>О МУЗЕЕ</h1>
+          <h2>ИСТОРИЯ МУЗЕЯ</h2>
+          <p>В&nbsp;1947&nbsp;году, на&nbsp;волне послевоенного патриотического подъема, в&nbsp;год празднования 800-летия Москвы, на&nbsp;территории монастыря был образован Музей им. Андрея Рублева. Его первым директором стал крупный организатор музейного строительства Д.И. Арсенишвили (1905-1963), первым научным сотрудником&nbsp;&mdash; выдающийся знаток творчества прп. Андрея Рублева Н.А. Демина (1904-1990). В&nbsp;2001 году музей отметил их&nbsp;заслуги мемориальными доскам работы скульпторов З.К. Церетели и&nbsp;В.А. Суворова.</p>
+          <p>К&nbsp;моменту основания Музея монастырь был полностью разорен, музейная коллекция собиралась буквально по&nbsp;крохам, в&nbsp;обстановке крайне негативного отношения государства к&nbsp;отечественному религиозному наследию. Собранные произведения зачастую требовали тщательной и&nbsp;многолетней реставрации. Тем не&nbsp;менее через 13&nbsp;лет, 21&nbsp;сентября 1960&nbsp;года, Музей был открыт и&nbsp;представлен на&nbsp;суд посетителей залы с&nbsp;десятками раскрытых от&nbsp;поздних записей и&nbsp;грязи икон, снятых со&nbsp;стен разрушенных храмов росписей и&nbsp;произведений декоративно-прикладного искусства. Собирательская деятельность и&nbsp;реставрационные работы продолжаются до&nbsp;настоящего времени и&nbsp;являются неотъемлемой частью повседневной музейной жизни.</p>
+          <p>Ныне экспозиция занимает все отреставрированные и&nbsp;доступные для осмотра помещения трапезной палаты и&nbsp;церкви Архангела Михаила. В&nbsp;Настоятельском корпусе размещается выставочный зал.</p>
+
+        </article>
+
+      </section>
+
+      <section id="fixme3" class="column4">
+        <p>
+          ВРЕМЯ РАБОТЫ МУЗЕЯ:
+          <br><br>
+          ПН, СБ И ВС<br>11.00 - 18.00,<br>КАССА - ДО 17.15
+          <br><br>
+          ВТ И ЧТ<br>14.00 - 21.00,<br> КАССА - ДО 20.15.<br>
+          В СРЕДУ МУЗЕЙ ЗАКРЫТ
+        </p>
+
+        <ul>
+          <li><a href="">СПЛАНИРОВАТЬ ВИЗИТ</a></li>
+          <li><a href="">МЕСТОПОЛОЖЕНИЕ</a></li>
+          <li><a href="#">ЭКСКУРСИИ</a></li>
+        </ul>
+
+        <div class="socials">
+          <div>
+            <div><i class="fa fa-facebook" aria-hidden="true"></i></div>
+            <div><i class="fa fa-vk" aria-hidden="true"></i></div>
+            <div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+            <div><i class="fa fa-tripadvisor" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/kute.js/1.6.2/kute.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/kute.js/1.6.2/kute-svg.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/kute.js/1.6.2/kute-jquery.min.js"></script>
+    <script type="text/javascript">
+      var tween = KUTE.fromTo('.stain1',  // target shape
+       { path: '.stain1' }, // from shape
+       { path: '.stain2' }, // to shape
+       { // options
+          easing: 'easingCubicInOut',
+          yoyo: true, repeat: 1000, duration: 20000,
+          reverseFirstPath: false,
+          reverseSecondPath: false,
+          morphIndex: 10
+       }
+      ).start();
+
+      // trigger it whenever you want
+      $(function() {
+        !tween.playing && tween.start();
+      });
+    </script>
+  </body>
+</html>
